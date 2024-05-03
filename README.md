@@ -2,7 +2,17 @@
 
 This is a React web application built using Ant Design for UI components. It fetches data from a remote API and displays it in a paginated table format. Users can search for specific items, filter by tags, and reset filters.
 
+## Table of Contents
 
+- [Demo](#demo)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Technologies](#technologies)
+
+
+## Demo
+[Link](https://zime-ai-pearl.vercel.app/)
 
 ## Features
 
@@ -32,7 +42,6 @@ This will run the app in development mode. Open http://localhost:3000 to view it
 ## Technologies
 - React.js
 - Ant Design
-- Axios
 
 
 
