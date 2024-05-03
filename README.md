@@ -27,3 +27,19 @@ After completing the installation steps, you can start the development server by
 ```bash                                                                                                                                                                                                
 npm start
 ```
+This will run the app in development mode. Open http://localhost:3000 to view it in your browser.
+
+## Technologies
+- React.js
+- Ant Design
+- Axios
+
+
+
+
+
+
+
+
+
+
