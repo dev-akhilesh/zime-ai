@@ -1,0 +1,89 @@
+.home-container {
+  margin: 15px;
+  text-align: center;
+}
+
+.search-bar {
+  margin: 20px auto;
+  width: 90%;
+  max-width: 400px;
+}
+
+.filter-buttons {
+  margin: 30px 0px;
+}
+
+.table-container {
+  margin: 15px auto;
+  max-width: 90%;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.pagination {
+  margin: 15px auto;
+}
+
+.reset-button {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.filter-buttons .ant-btn {
+  border-radius: 20px;
+  margin-right: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.reset-button .ant-btn {
+  border-radius: 20px;
+  margin-left: 10px;
+
+}
+
+/* Media Queries for Tablet and Mobile Screens */
+@media only screen and (max-width: 768px) {
+  .search-bar {
+    width: 80%;
+  }
+
+  .table-container {
+    max-width: 100%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .search-bar {
+    width: 100%;
+  }
+}
+
+.table-container {
+  margin: 15px auto;
+  max-width: 90%;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.ant-table {
+  border: 1px solid #d9d9d9;
+  border-radius: 8px;
+}
+
+.ant-table-thead > tr > th {
+  background-color: #f0f2f5;
+}
+
+.ant-table-tbody > tr > td {
+  border-bottom: 1px solid #d9d9d9;
+}
+
+.ant-table-tbody > tr:hover > td {
+  background-color: #f0faff;
+}
+
+.ant-table-pagination {
+  text-align: center;
+}
+
+
+
+
